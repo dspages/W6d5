@@ -1,0 +1,32 @@
+/*for clock and thermometer*/
+section{
+  font-family: 'Spectral', serif;
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid grey;
+}
+
+h1{
+  display: block;
+}
+
+.selected_tab{
+  color: red;
+}
+
+/*for TAs table*/
+input,li{
+  font-size: 20px;
+}
+li{
+  cursor: pointer;
+}
+.temp{
+  display: flex;
+  justify-content: space-between;
+}
+
+.city{
+  display: flex;
+  justify-content: space-between;
+}
