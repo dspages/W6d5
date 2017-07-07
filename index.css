@@ -4,6 +4,11 @@ section{
   display: flex;
   justify-content: space-between;
   border: 5px solid grey;
+  background-color: #D28320;
+}
+
+div{
+  color: #0093B2;
 }
 
 h1{
@@ -11,7 +16,8 @@ h1{
 }
 
 .selected_tab{
-  color: red;
+  color: #5FE3FF;
+  font-weight: bolder;
 }
 
 /*for TAs table*/
@@ -21,6 +27,7 @@ input,li{
 li{
   cursor: pointer;
 }
+
 .temp{
   display: flex;
   justify-content: space-between;

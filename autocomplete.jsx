@@ -20,7 +20,7 @@ class Autocomplete extends React.Component{
 
   updatenames(){
     this.setState({listitems: this.props.names.map((cur,idx)=>{
-      if(cur.indexOf(this.state.inputVal) !== -1){
+      if(cur.toLowerCase().indexOf(this.state.inputVal.toLowerCase()) !== -1){
         return <li value={cur} onClick={this.click} key={idx}>{cur}</li>;
       }else{
         return "";
